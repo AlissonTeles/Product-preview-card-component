@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&display=swap" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .botãoCompra {
+      width: 212px;
+      height: 45px; 
+      background: hsl(158, 36%, 37%); 
+      color: white; 
+      border: transparent; 
+      border-radius: 10px; 
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+      text-decoration: none;
+    }
+    .botãoCompra:hover {
+      background: hsl(158, 36%, 15%); 
+      transition: 0.5s;
+    }
+    .botãoCompra:focus {
+      background: hsl(158, 36%, 15%); 
+    }
+
+  </style>
+</head>
+<body style="background-color: hsl(30, 38%, 92%);">
+  <section style="display: flex; height: 95vh; justify-content: center; align-items: center;">
+    <div style="justify-content: center; text-align: center; display: flex;">
+      <img src="../product-preview-card-component-main/images/image-product-desktop.jpg" style="width: 285px; border-radius: 10px 0px 0px 10px;"/>
+      <div style="text-align: initial; padding-left: 30px; padding-right: 30px; background-color: white; 
+      border-radius: 0px 10px 10px 0px; padding-top: 25px;">
+        <h2 style="font-family: 'Montserrat', sans-serif; font-size: 11px; letter-spacing: 5px; color: #9b9da3;">
+          PERFUME
+        </h2>
+
+          <h1 style="font-family: 'Fraunces', serif; color: #191d26; letter-spacing: 1px;">
+            Gabrielle <br/> Essence Eau <br/> De Parfum
+          </h1>
+        
+          <p style="font-family: 'Montserrat', sans-serif; color: #9b9da3; font-size: 14px; line-height: 21px; padding-bottom: 10px;">
+            A floral, solar and voluptuous <br/> interpretation composed by <br/> Olivier Polge, 
+            Perfumer-Creator <br/> for the House of CHANEL.
+          </p>
+        
+          <p style="display: flex; align-items: center; padding-bottom: 10px;">
+            <span style="font-family: 'Signika Negative', sans-serif; color: hsl(158, 36%, 37%); font-size: 35px;" >
+              $149.99
+            </span>
+            <span style="font-family: 'Signika Negative', sans-serif; margin-left: 10px; text-decoration-line: line-through; color: #9b9da3;">
+              $169.99
+            </span>
+          </p>
+         
+      
+          <a href="#" class="botãoCompra">
+            <img src="../product-preview-card-component-main/images/icon-cart.svg" style="margin-right: 10px">
+            Add to Cart
+          </a>
+      </div>
+    
+    </div>
+  </section>
+  
+ 
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </footer>
+</body>
+</html>
